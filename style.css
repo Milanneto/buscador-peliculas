@@ -1,0 +1,109 @@
+.card-padre {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.card {
+  flex: 0 0 auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 220px;
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+  #mensaje-error {
+    margin-top: 10px;
+    height: 20px;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  letter-spacing: 1px;
+}
+
+input[type="text"] {
+  padding: 12px 15px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0077cc;
+}
